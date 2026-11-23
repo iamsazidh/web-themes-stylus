@@ -1,0 +1,287 @@
+[
+  {
+    "settings": {
+      "disableAll": false,
+      "exposeIframes": false,
+      "exposeIframes.sites": "",
+      "exposeIframes.sitesOnly": false,
+      "exposeStyleName": false,
+      "keepAlive": 0,
+      "keepAliveIdle": false,
+      "newStyleAsUsercss": false,
+      "openEditInWindow": true,
+      "openEditInWindow.popup": false,
+      "patchCsp": false,
+      "patchCsp.sites": "",
+      "patchCsp.sitesOnly": false,
+      "show-badge": true,
+      "styleViaASS": false,
+      "styleViaASS.sites": "",
+      "styleViaASS.sitesOnly": false,
+      "styleViaXhr": false,
+      "styleViaXhr.sites": "",
+      "styleViaXhr.sitesOnly": false,
+      "urlInstaller": true,
+      "windowPosition": {
+        "height": 1028,
+        "left": 0,
+        "top": 0,
+        "width": 949
+      },
+      "compactWidth": 850,
+      "config.autosave": true,
+      "schemeSwitcher.enabled": "system",
+      "schemeSwitcher.nightStart": "18:00",
+      "schemeSwitcher.nightEnd": "06:00",
+      "popup.enabledFirst": true,
+      "popup.stylesFirst": true,
+      "popup.autoResort": false,
+      "popup.borders": false,
+      "popup.findSort": "w",
+      "manage.onlyEnabled": false,
+      "manage.onlyLocal": false,
+      "manage.onlyUsercss": false,
+      "manage.onlyEnabled.invert": false,
+      "manage.onlyLocal.invert": false,
+      "manage.onlyUsercss.invert": false,
+      "manage.actions.expanded": false,
+      "manage.backup.expanded": true,
+      "manage.filters.expanded": true,
+      "manage.links.expanded": true,
+      "manage.minColumnWidth": 750,
+      "manage.newUI": true,
+      "manage.newUI.favicons": true,
+      "manage.newUI.faviconsGray": false,
+      "manage.newUI.targets": 3,
+      "manage.newUI.sort": "title,asc",
+      "manage.searchMode": "meta",
+      "editor.options": {},
+      "editor.toc.expanded": true,
+      "editor.options.expanded": true,
+      "editor.options.style.expanded": true,
+      "editor.general.expanded": true,
+      "editor.lint.expanded": true,
+      "editor.publish.expanded": true,
+      "editor.lineWrapping": true,
+      "editor.smartIndent": true,
+      "editor.indentWithTabs": false,
+      "editor.tabSize": 4,
+      "editor.keyMap": "default",
+      "editor.theme": "default",
+      "editor.beautify": {
+        "selector_separator_newline": true,
+        "newline_before_open_brace": false,
+        "newline_after_open_brace": true,
+        "newline_between_properties": true,
+        "newline_before_close_brace": true,
+        "newline_between_rules": false,
+        "preserve_newlines": true,
+        "end_with_newline": false,
+        "indent_conditional": true,
+        "indent_mozdoc": true,
+        "space_around_combinator": true,
+        "space_around_cmp": false
+      },
+      "editor.beautify.hotkey": "",
+      "editor.toggle.hotkey": "Alt-Enter",
+      "editor.toggle.save": false,
+      "editor.linter": "csslint",
+      "editor.linter.on": true,
+      "editor.lintReportDelay": 500,
+      "editor.matchHighlight": "token",
+      "editor.autoCloseBrackets": true,
+      "editor.autocompleteOnTyping": false,
+      "editor.contextDelete": false,
+      "editor.selectByTokens": true,
+      "editor.arrowKeysTraverse": true,
+      "editor.appliesToLineWidget": true,
+      "editor.autosaveDraft": 10,
+      "editor.livePreview": true,
+      "editor.livePreview.delay": 0.2,
+      "editor.targetsFirst": true,
+      "editor.colorpicker": true,
+      "editor.colorpicker.hexUppercase": 0,
+      "editor.colorpicker.hotkey": "",
+      "editor.colorpicker.color": "",
+      "editor.colorpicker.maxHeight": 300,
+      "hotkey._execute_browser_action": "",
+      "hotkey.openManage": "",
+      "hotkey.styleDisableAll": "",
+      "hotkey.toggleTab": "",
+      "sync.enabled": "none",
+      "iconset": -1,
+      "badgeDisabled": "#8B0000",
+      "badgeNormal": "#006666",
+      "headerWidth.edit": 280,
+      "headerWidth.install": 280,
+      "headerWidth.manage": 280,
+      "popup.search.globals": false,
+      "popup.sidePanel": false,
+      "popup.sidePanel.config": -1,
+      "popup.sidePanel.editor": false,
+      "popup.sidePanel.finder": false,
+      "popup.sidePanel.manager": false,
+      "popup.sidePanel.options": true,
+      "popup.toggler.expanded": false,
+      "popupWidth": 246,
+      "popupWidthMax": 280,
+      "updateInterval": 24,
+      "updateOnlyEnabled": false
+    },
+    "order": {
+      "main": [],
+      "prio": []
+    }
+  },
+  {
+    "enabled": true,
+    "installDate": 1793012122736,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Gemini Blurry Background (Arch Colors)\n@namespace      github.com/openstyles/stylus\n@version        1.2.0\n@description    Gemini blurry color-mesh tweaked for Arch Linux\n@author         coolpixels / Dude\n==/UserStyle== */\n\n@-moz-document url-prefix(\"https://gemini.google.com/\")\n{\n  /* set background */\n  body {\n    background-image: linear-gradient(\n        #1e293b50,\n        #0f172a40,\n        #090d1660,\n        #090d16be,\n        #05070b\n      ),\n      url(\"data:image/webp;base64,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\") !important;\n    background-size: cover, cover !important;\n    background-repeat: no-repeat, no-repeat !important;\n    background-position: center center, center center !important;\n    /* Hue-rotate shifts the warm orange/red blobs into cool Arch blue/purple/slate */\n    backdrop-filter: blur(40px) brightness(0.28) hue-rotate(190deg) saturate(0.85) !important;\n  }\n\n  /* remove backgrounds from main components */\n  chat-window,\n  input-container,\n  bard-sidenav,\n  mat-sidenav-container {\n    background: transparent !important;\n  }\n\n  /* style sidebar */\n  bard-sidenav {\n    border-right: 1px solid #89b4fa25 !important;\n    backdrop-filter: blur(40px);\n  }\n\n  /* style gemini chat bubbles */\n  .response-container {\n    padding: 16px !important;\n    background-color: #0b0f1945 !important;\n    border: 2px solid #89b4fa20 !important;\n    border-radius: 12px !important;\n  }\n\n  /* style user chat bubbles */\n  .user-query-bubble-with-background {\n    background-color: #0b0f1955 !important;\n    border: 2px solid #89b4fa25 !important;\n  }\n\n  /* remove gradient by input container */\n  input-container::before {\n    all: unset !important;\n  }\n}",
+    "updateUrl": "https://userstyles.world/api/style/23635.user.css",
+    "usercssData": {
+      "name": "Gemini Blurry Background (Arch Colors)",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.2.0",
+      "description": "Gemini blurry color-mesh tweaked for Arch Linux",
+      "author": "coolpixels / Dude"
+    },
+    "author": "coolpixels / Dude",
+    "description": "Gemini blurry color-mesh tweaked for Arch Linux",
+    "name": "Gemini Blurry Background (Arch Colors)",
+    "originalDigest": "f44888d4f123038cd6add9c5d3b040f356dc17b5",
+    "_rev": 1794843721383,
+    "_id": "c9f36168-7f19-47e8-a6fa-4e3f849da7bc",
+    "url": "https://userstyles.world/style/23635",
+    "installationUrl": "https://userstyles.world/style/23635",
+    "id": 1,
+    "updateDate": 1794843721383
+  },
+  {
+    "enabled": true,
+    "installDate": 1794830711143,
+    "name": "chatgpt.com",
+    "sections": [
+      {
+        "code": "/* ==========================================\n   FROSTED GRAPHITE\n   ChatGPT — Stylus Custom Theme\n   ========================================== */"
+      },
+      {
+        "code": "\n/* ==========================================\n   FROSTED GRAPHITE 2.0\n   ChatGPT · Stylus\n   ========================================== */\n\n/* Google Font */\n@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');\n\n/* ---------- COLOR SYSTEM ---------- */\n\n:root[data-theme=\"dark\"] {\n  color-scheme: dark;\n\n  --app-color-background-surface: #191e28;\n  --app-color-background-surface-under: #151a23;\n  --app-color-background-elevated-primary: #222a37;\n  --app-color-background-elevated-primary-opaque: #222a37;\n  --app-color-background-elevated-secondary: #293343;\n  --app-color-background-elevated-secondary-opaque: #293343;\n  --app-color-background-elevated-tertiary-opaque: #303c4f;\n  --app-color-background-control: #283243;\n  --color-background-control-opaque: #283243;\n  --color-background-panel: #1c2330;\n\n  --app-color-background-accent: #263d5b;\n  --app-color-background-accent-hover: #304d70;\n  --app-color-background-accent-active: #354f73;\n\n  --app-color-border: rgba(166, 190, 225, .13);\n  --app-color-border-heavy: rgba(166, 190, 225, .23);\n  --app-color-border-light: rgba(166, 190, 225, .08);\n  --app-color-border-focus: #83b9ff;\n\n  --app-color-text-foreground: #e3eaf5;\n  --app-color-text-foreground-secondary: #aab8cc;\n  --app-color-text-foreground-tertiary: #7f90a8;\n  --app-color-text-accent: #9bc7ff;\n\n  --app-color-icon-primary: #dce7f6;\n  --app-color-icon-secondary: #aabbd1;\n  --app-color-icon-tertiary: #8294ad;\n\n  --color-background-user-message: #29394d;\n  --color-text-user-message: #e9f1fc;\n  --color-background-text-selection: #659de866;\n}\n\n/* ---------- TYPOGRAPHY ---------- */\n\nhtml,\nbody,\nbutton,\ninput,\ntextarea,\nselect,\n[contenteditable=\"true\"],\n.prose,\n.markdown,\n[class*=\"text-\"] {\n  font-family: \"Coming Soon\", cursive !important;\n}\n\n/* Don't make code look handwritten */\npre,\ncode,\nkbd,\nsamp,\n.hljs,\n.cm-editor,\n.monaco-editor {\n  font-family: \"JetBrains Mono\", monospace !important;\n}\n\n/* ---------- MAIN BACKGROUND ---------- */\n\nhtml[data-theme=\"dark\"] body {\n  background: #191e28 !important;\n}\n\n/* ---------- SIDEBAR ---------- */\n\n.sidebar-navigation {\n  background:\n    radial-gradient(ellipse at 15% 0%, #29394d 0%, transparent 48%),\n    linear-gradient(160deg, #202a38 0%, #1b2330 50%, #191f2a 100%) !important;\n\n  border-right: 1px solid rgba(153, 184, 225, .13);\n}\n\n/* Sidebar header */\n.sidebar-navigation .header-LjJHnp {\n  background: transparent !important;\n}\n\n/* Sidebar navigation controls */\n.sidebar-navigation button {\n  border-radius: 12px !important;\n  transition: all .2s ease !important;\n}\n\n.sidebar-navigation button:hover {\n  background: rgba(130, 177, 239, .10) !important;\n  color: #dceaff !important;\n}\n\n/* Sidebar content rows */\n.sidebar-navigation a,\n.sidebar-navigation [role=\"button\"] {\n  border-radius: 11px !important;\n  transition: all .2s ease !important;\n}\n\n.sidebar-navigation a:hover,\n.sidebar-navigation [role=\"button\"]:hover {\n  background: rgba(130, 177, 239, .10) !important;\n}\n\n/* Selected sidebar item */\n.sidebar-navigation [aria-current=\"page\"],\n.sidebar-navigation [data-active=\"true\"] {\n  background: linear-gradient(\n    105deg,\n    rgba(105, 164, 237, .20),\n    rgba(153, 133, 255, .12)\n  ) !important;\n\n  border: 1px solid rgba(139, 184, 245, .18) !important;\n  border-radius: 11px !important;\n}\n\n/* Sidebar profile area */\n.sidebar-item {\n  border-radius: 13px !important;\n  transition: background .2s ease;\n}\n\n.sidebar-item:hover {\n  background: rgba(130, 177, 239, .10) !important;\n}\n\n/* ---------- TOP BAR ---------- */\n\nheader {\n  background: rgba(25, 31, 43, .88) !important;\n  backdrop-filter: blur(18px) saturate(145%);\n  -webkit-backdrop-filter: blur(18px) saturate(145%);\n  border-bottom: 1px solid rgba(153, 184, 225, .12) !important;\n}\n\n/* Top bar buttons — restrained, not oversized */\nheader button {\n  border-radius: 10px !important;\n  transition: all .18s ease !important;\n}\n\nheader button:hover {\n  background: rgba(126, 174, 239, .12) !important;\n  color: #b9d7ff !important;\n}\n\n/* Conversation title / model menu buttons */\nheader button[aria-haspopup=\"menu\"] {\n  background: linear-gradient(\n    120deg,\n    rgba(103, 156, 222, .15),\n    rgba(153, 133, 255, .10)\n  ) !important;\n\n  border: 1px solid rgba(145, 187, 244, .20) !important;\n  border-radius: 11px !important;\n  padding: 6px 12px !important;\n}\n\nheader button[aria-haspopup=\"menu\"]:hover {\n  background: rgba(116, 166, 235, .22) !important;\n  border-color: rgba(145, 187, 244, .42) !important;\n}\n\n/* ---------- CHAT AREA ---------- */\n\n.scrollContainer-fG6qEo {\n  scrollbar-color: #52647e transparent;\n}\n\n/* User messages */\n[data-message-author-role=\"user\"] .whitespace-pre-wrap {\n  background: linear-gradient(\n    135deg,\n    #2b3b50,\n    #30364c\n  );\n  border: 1px solid rgba(145, 180, 230, .12);\n  border-radius: 19px !important;\n  padding: 11px 16px !important;\n}\n\n/* ---------- COMPOSER ---------- */\n\nform,\n[data-testid=\"composer\"] {\n  background: linear-gradient(\n    145deg,\n    rgba(39, 49, 66, .98),\n    rgba(31, 40, 55, .98)\n  ) !important;\n\n  border: 1px solid rgba(145, 180, 230, .20) !important;\n  border-radius: 23px !important;\n\n  box-shadow:\n    0 8px 30px rgba(0, 0, 0, .20),\n    inset 0 1px 0 rgba(255, 255, 255, .025) !important;\n\n  transition: border-color .2s ease, box-shadow .2s ease !important;\n}\n\nform:focus-within,\n[data-testid=\"composer\"]:focus-within {\n  border-color: rgba(126, 180, 255, .48) !important;\n  box-shadow: 0 0 0 3px rgba(100, 160, 240, .08) !important;\n}\n\n/* ---------- BUTTONS ---------- */\n\nbutton {\n  transition:\n    background .18s ease,\n    border-color .18s ease,\n    color .18s ease !important;\n}\n\nbutton:focus-visible {\n  outline: 2px solid #83b9ff !important;\n  outline-offset: 3px;\n}\n\n/* ---------- LINKS ---------- */\n\na {\n  color: #9bc7ff;\n}\n\na:hover {\n  color: #c2dcff;\n}\n\n/* ---------- SCROLLBARS ---------- */\n\n* {\n  scrollbar-width: thin;\n  scrollbar-color: #45566f transparent;\n}\n\n::-webkit-scrollbar {\n  width: 7px;\n  height: 7px;\n}\n\n::-webkit-scrollbar-thumb {\n  background: #45566f;\n  border-radius: 20px;\n}\n\n::-webkit-scrollbar-thumb:hover {\n  background: #7189aa;\n}\n\n/* ---------- SELECTION ---------- */\n\n::selection {\n  background: rgba(113, 169, 245, .32);\n  color: #fff;\n}\n\n\n\n/* ==========================================\n   TYPOGRAPHY + SIDEBAR FIX\n   ========================================== */\n\n/* Force Coming Soon throughout the interface */\n:root,\nbody,\nbody *,\nbody *::before,\nbody *::after {\n  font-family: \"Coming Soon\", cursive !important;\n  font-weight: 600 !important;\n  font-synthesis: weight !important;\n}\n\n/* Preserve icon fonts and code fonts */\nsvg,\nsvg *,\n[class*=\"icon\"],\n[class*=\"Icon\"],\n[class*=\"lucide\"],\npre,\npre *,\ncode,\ncode *,\nkbd,\nsamp {\n  font-family: initial !important;\n}\n\n/* Make the text slightly more readable */\nbody {\n  -webkit-font-smoothing: antialiased;\n}\n\n\n/* ==========================================\n   SIDEBAR — SINGLE ACTIVE CHAT HIGHLIGHT\n   ========================================== */\n\n/* Outer selected chat box */\n.sidebar-navigation [aria-current=\"page\"],\n.sidebar-navigation [data-active=\"true\"] {\n  background: rgba(105, 145, 220, 0.25) !important;\n  border: 1px solid rgba(145, 187, 244, 0.30) !important;\n  border-radius: 13px !important;\n\n  padding: 9px 12px !important;\n  margin: 3px 0 !important;\n\n  box-shadow: none !important;\n}\n\n/* Remove inner box backgrounds and borders */\n.sidebar-navigation [aria-current=\"page\"] *,\n.sidebar-navigation [data-active=\"true\"] * {\n  background: transparent !important;\n  border: none !important;\n  box-shadow: none !important;\n  outline: none !important;\n}\n\n/* Keep text visible */\n.sidebar-navigation [aria-current=\"page\"],\n.sidebar-navigation [data-active=\"true\"] {\n  color: #dceaff !important;\n}\n",
+        "domains": [
+          "chatgpt.com",
+          "chat.openai.com"
+        ]
+      }
+    ],
+    "_rev": 1794834599135,
+    "updateDate": 1794834599135,
+    "_id": "f51723fa-d92b-43fd-ac7b-dcc3e780d46c",
+    "id": 7
+  },
+  {
+    "enabled": true,
+    "installDate": 1794834474705,
+    "name": "text sizes chatgpt.com",
+    "sections": [
+      {
+        "code": "\n/* ==========================================\n   GLOBAL TYPOGRAPHY SCALE — 120%\n   ========================================== */\n\nhtml {\n  font-size: 120% !important;\n}\n\n/* Chat messages */\n[data-message-author-role],\n.prose,\n.markdown,\n[class*=\"message-content\"] {\n  font-size: 1.2em !important;\n  line-height: 1.75 !important;\n}\n\n/* Sidebar conversation titles */\n.sidebar-navigation {\n  font-size: 1.12em !important;\n}\n\n/* Composer text */\ntextarea,\n[contenteditable=\"true\"] {\n  font-size: 1.15em !important;\n  line-height: 1.6 !important;\n}\n\n/* Buttons and navigation */\nbutton {\n  font-size: 1.08em;\n}\n",
+        "domains": [
+          "chatgpt.com"
+        ]
+      }
+    ],
+    "_rev": 1794834474705,
+    "updateDate": 1794834474705,
+    "_id": "de7e7a6a-efc6-4d03-9cda-fbc3fdf3655e",
+    "id": 8
+  },
+  {
+    "enabled": true,
+    "installDate": 1794841995349,
+    "name": "font gemini.google.com",
+    "sections": [
+      {
+        "code": "/* Make base chat text, lists, and code blocks thicker */\n.markdown p,\n.markdown li,\n.markdown td,\n.query-text,\nmessage-content,\n.model-response-text {\n    font-weight: 600 !important; /* Change to 600 if you want it semi-bold */\n}\n\n/* Keep actual bold text distinctly heavier so it still pops */\n.markdown strong,\n.markdown b,\n.markdown h1,\n.markdown h2,\n.markdown h3,\n.markdown th {\n    font-weight: 800 !important;\n}\n\n/* Optional: Thicken up the code blocks too */\n.markdown pre,\n.markdown code {\n    font-weight: 600 !important;\n}\n\nhtml{\n    font-weight: 800 !important;\n}",
+        "domains": [
+          "gemini.google.com"
+        ]
+      }
+    ],
+    "_rev": 1795187842344,
+    "updateDate": 1795187842344,
+    "_id": "9dffc7e8-24c0-4a3c-8bb9-2fe8fce42515",
+    "id": 10
+  },
+  {
+    "enabled": true,
+    "installDate": 1795106337526,
+    "name": "music.youtube.com",
+    "sections": [
+      {
+        "code": "@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');\n\n* {\n    font-family: 'Coming Soon', cursive !important;\n    font-weight: 600 !important;\n}",
+        "urlPrefixes": [
+          "https://music.youtube.com/"
+        ]
+      }
+    ],
+    "_rev": 1795106337526,
+    "updateDate": 1795106337526,
+    "_id": "2e364ee3-a5db-4bd2-b77c-63236ec3d050",
+    "id": 11
+  },
+  {
+    "enabled": true,
+    "installDate": 1795237190747,
+    "name": "calendar.google.com/calendar/u/1/r",
+    "sections": [
+      {
+        "code": "@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');\n\n/* === 1. COLOR PALETTE & FONT TOKENS === */\n:root,\nbody {\n  /* Custom Theme Variables (Unified Navy Center) */\n  --bg-main: #1e2530;\n  --bg-sidebar: #1b222c;\n  --bg-elevated: #283344;\n  --bg-input: #222a36;\n  --border-subtle: #313e50;\n  --text-main: #e2e8f0;\n  --text-muted: #8a9bb2;\n  --accent-blue: #5c8ec6;\n  --accent-blue-soft: #7aa7e0;\n\n  /* Google Calendar & Tasks Material 3 (GM3) Overrides */\n  --gm3-ref-typeface-brand: 'Coming Soon', cursive !important;\n  --gm3-ref-typeface-plain: 'Coming Soon', cursive !important;\n\n  --gm3-sys-color-background: var(--bg-main) !important;\n  --gm3-sys-color-surface: var(--bg-main) !important;\n  --gm3-sys-color-surface-dim: var(--bg-sidebar) !important;\n  --gm3-sys-color-surface-bright: var(--bg-elevated) !important;\n  --gm3-sys-color-surface-container-lowest: var(--bg-main) !important;\n  --gm3-sys-color-surface-container-low: var(--bg-sidebar) !important;\n  --gm3-sys-color-surface-container: var(--bg-sidebar) !important;\n  --gm3-sys-color-surface-container-high: var(--bg-elevated) !important;\n  --gm3-sys-color-surface-container-highest: #303d52 !important;\n\n  --gm3-sys-color-on-background: var(--text-main) !important;\n  --gm3-sys-color-on-surface: var(--text-main) !important;\n  --gm3-sys-color-on-surface-variant: var(--text-muted) !important;\n\n  --gm3-sys-color-outline: #405066 !important;\n  --gm3-sys-color-outline-variant: var(--border-subtle) !important;\n\n  --gm3-sys-color-primary: var(--accent-blue) !important;\n  --gm3-sys-color-on-primary: #0f141b !important;\n  --gm3-sys-color-primary-container: var(--bg-elevated) !important;\n  --gm3-sys-color-on-primary-container: var(--accent-blue-soft) !important;\n\n  --gm3-sys-color-secondary-container: var(--bg-elevated) !important;\n  --gm3-sys-color-on-secondary-container: var(--text-main) !important;\n\n  /* Legacy Token Fallbacks */\n  --surface: var(--bg-main) !important;\n  --on-surface: var(--text-main) !important;\n  --on-surface-variant: var(--text-muted) !important;\n  --hairline: var(--border-subtle) !important;\n  --textfield-surface: var(--bg-input) !important;\n  --fab: var(--bg-elevated) !important;\n  --fab-hover: #324056 !important;\n}\n\n/* === 2. FORCE COMING SOON (BOLD) EVERYWHERE EXCEPT ICONS === */\n*:not(.google-material-icons):not(.material-icons):not(.material-icons-extended):not(.material-symbols-outlined):not(.DPvwYc) {\n  font-family: 'Coming Soon', cursive !important;\n  font-weight: 700 !important;\n  font-synthesis: weight !important;\n  letter-spacing: 0.2px;\n}\n\n/* Protect Google's icon fonts */\n.google-material-icons,\n.material-icons,\n.material-icons-extended,\n.material-symbols-outlined,\n.DPvwYc {\n  font-family: 'Google Material Icons', 'Material Icons Extended', 'Material Icons', 'Material Symbols Outlined' !important;\n  font-weight: 400 !important;\n}\n\n/* === 3. LAYOUT SURFACES & POLISH === */\nhtml,\nbody {\n  background-color: var(--bg-main) !important;\n  color: var(--text-main) !important;\n}\n\n/* Top Header & Side Panels */\nheader[role=\"banner\"],\n[role=\"complementary\"] {\n  background-color: var(--bg-sidebar) !important;\n  border-color: var(--border-subtle) !important;\n}\n\n/* Main Calendar Grid & Full-Page Tasks Center */\n[role=\"main\"],\nmain {\n  background-color: var(--bg-main) !important;\n}\n\n/* Event Creation Popups, Modals & Dropdowns */\n[role=\"dialog\"],\n[role=\"menu\"],\n[role=\"listbox\"] {\n  background-color: var(--bg-elevated) !important;\n  border: 1px solid var(--border-subtle) !important;\n  border-radius: 16px !important;\n  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45) !important;\n}\n\n/* Inputs & Search Bar */\ninput,\ntextarea {\n  background-color: var(--bg-input) !important;\n  color: var(--text-main) !important;\n  border-radius: 12px !important;\n}\n\n/* Event Chips: softer pill look */\n[data-eventchip] {\n  border-radius: 10px !important;\n  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25) !important;\n  transition: transform 0.12s ease, filter 0.12s ease !important;\n}\n\n[data-eventchip]:hover {\n  transform: translateY(-1px);\n  filter: brightness(1.08);\n}\n\n/* Subtle Custom Scrollbar */\n::-webkit-scrollbar {\n  width: 7px;\n  height: 7px;\n}\n\n::-webkit-scrollbar-track {\n  background: var(--bg-main);\n}\n\n::-webkit-scrollbar-thumb {\n  background: var(--bg-elevated);\n  border-radius: 999px;\n}\n\n::-webkit-scrollbar-thumb:hover {\n  background: var(--accent-blue);\n}",
+        "urlPrefixes": [
+          "https://calendar.google.com/calendar/u/1/r"
+        ]
+      }
+    ],
+    "_rev": 1795441888185,
+    "updateDate": 1795441888185,
+    "_id": "5693104b-fc66-4e1b-93f0-5c3a2e0c5316",
+    "id": 16
+  },
+  {
+    "enabled": true,
+    "installDate": 1795442005555,
+    "name": "tasks.google.com",
+    "sections": [
+      {
+        "code": "@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');\n\n/* === 1. COLOR PALETTE & FONT TOKENS === */\n:root,\nbody {\n  /* Custom Theme Variables (Unified Navy Center) */\n  --bg-main: #1e2530;\n  --bg-sidebar: #1b222c;\n  --bg-elevated: #283344;\n  --bg-input: #222a36;\n  --border-subtle: #313e50;\n  --text-main: #e2e8f0;\n  --text-muted: #8a9bb2;\n  --accent-blue: #5c8ec6;\n  --accent-blue-soft: #7aa7e0;\n\n  /* Google Calendar & Tasks Material 3 (GM3) Overrides */\n  --gm3-ref-typeface-brand: 'Coming Soon', cursive !important;\n  --gm3-ref-typeface-plain: 'Coming Soon', cursive !important;\n\n  --gm3-sys-color-background: var(--bg-main) !important;\n  --gm3-sys-color-surface: var(--bg-main) !important;\n  --gm3-sys-color-surface-dim: var(--bg-sidebar) !important;\n  --gm3-sys-color-surface-bright: var(--bg-elevated) !important;\n  --gm3-sys-color-surface-container-lowest: var(--bg-main) !important;\n  --gm3-sys-color-surface-container-low: var(--bg-sidebar) !important;\n  --gm3-sys-color-surface-container: var(--bg-sidebar) !important;\n  --gm3-sys-color-surface-container-high: var(--bg-elevated) !important;\n  --gm3-sys-color-surface-container-highest: #303d52 !important;\n\n  --gm3-sys-color-on-background: var(--text-main) !important;\n  --gm3-sys-color-on-surface: var(--text-main) !important;\n  --gm3-sys-color-on-surface-variant: var(--text-muted) !important;\n\n  --gm3-sys-color-outline: #405066 !important;\n  --gm3-sys-color-outline-variant: var(--border-subtle) !important;\n\n  --gm3-sys-color-primary: var(--accent-blue) !important;\n  --gm3-sys-color-on-primary: #0f141b !important;\n  --gm3-sys-color-primary-container: var(--bg-elevated) !important;\n  --gm3-sys-color-on-primary-container: var(--accent-blue-soft) !important;\n\n  --gm3-sys-color-secondary-container: var(--bg-elevated) !important;\n  --gm3-sys-color-on-secondary-container: var(--text-main) !important;\n\n  /* Legacy Token Fallbacks */\n  --surface: var(--bg-main) !important;\n  --on-surface: var(--text-main) !important;\n  --on-surface-variant: var(--text-muted) !important;\n  --hairline: var(--border-subtle) !important;\n  --textfield-surface: var(--bg-input) !important;\n  --fab: var(--bg-elevated) !important;\n  --fab-hover: #324056 !important;\n}\n\n/* === 2. FORCE COMING SOON (BOLD) EVERYWHERE EXCEPT ICONS === */\n*:not(.google-material-icons):not(.material-icons):not(.material-icons-extended):not(.material-symbols-outlined):not(.DPvwYc) {\n  font-family: 'Coming Soon', cursive !important;\n  font-weight: 700 !important;\n  font-synthesis: weight !important;\n  letter-spacing: 0.2px;\n}\n\n/* Protect Google's icon fonts */\n.google-material-icons,\n.material-icons,\n.material-icons-extended,\n.material-symbols-outlined,\n.DPvwYc {\n  font-family: 'Google Material Icons', 'Material Icons Extended', 'Material Icons', 'Material Symbols Outlined' !important;\n  font-weight: 400 !important;\n}\n\n/* === 3. LAYOUT SURFACES & POLISH === */\nhtml,\nbody {\n  background-color: var(--bg-main) !important;\n  color: var(--text-main) !important;\n}\n\n/* Top Header & Side Panels */\nheader[role=\"banner\"],\n[role=\"complementary\"] {\n  background-color: var(--bg-sidebar) !important;\n  border-color: var(--border-subtle) !important;\n}\n\n/* Main Calendar Grid & Full-Page Tasks Center */\n[role=\"main\"],\nmain {\n  background-color: var(--bg-main) !important;\n}\n\n/* Event Creation Popups, Modals & Dropdowns */\n[role=\"dialog\"],\n[role=\"menu\"],\n[role=\"listbox\"] {\n  background-color: var(--bg-elevated) !important;\n  border: 1px solid var(--border-subtle) !important;\n  border-radius: 16px !important;\n  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45) !important;\n}\n\n/* Inputs & Search Bar */\ninput,\ntextarea {\n  background-color: var(--bg-input) !important;\n  color: var(--text-main) !important;\n  border-radius: 12px !important;\n}\n\n/* Event Chips: softer pill look */\n[data-eventchip] {\n  border-radius: 10px !important;\n  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25) !important;\n  transition: transform 0.12s ease, filter 0.12s ease !important;\n}\n\n[data-eventchip]:hover {\n  transform: translateY(-1px);\n  filter: brightness(1.08);\n}\n\n/* Subtle Custom Scrollbar */\n::-webkit-scrollbar {\n  width: 7px;\n  height: 7px;\n}\n\n::-webkit-scrollbar-track {\n  background: var(--bg-main);\n}\n\n::-webkit-scrollbar-thumb {\n  background: var(--bg-elevated);\n  border-radius: 999px;\n}\n\n::-webkit-scrollbar-thumb:hover {\n  background: var(--accent-blue);\n}",
+        "domains": [
+          "tasks.google.com"
+        ]
+      }
+    ],
+    "_rev": 1795442005556,
+    "updateDate": 1795442005556,
+    "_id": "283c8cf0-4b66-488e-a650-0ba9b31b97e3",
+    "id": 17
+  },
+  {
+    "enabled": true,
+    "installDate": 1795442045307,
+    "name": "keep.google.com",
+    "sections": [
+      {
+        "code": "@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');\n\n/* === 1. FONT TOKENS === */\n:root,\nbody {\n  /* Google Calendar & Tasks Material 3 (GM3) Font Overrides */\n  --gm3-ref-typeface-brand: 'Coming Soon', cursive !important;\n  --gm3-ref-typeface-plain: 'Coming Soon', cursive !important;\n}\n\n/* === 2. FORCE COMING SOON (BOLD) EVERYWHERE EXCEPT ICONS === */\n*:not(.google-material-icons):not(.material-icons):not(.material-icons-extended):not(.material-symbols-outlined):not(.DPvwYc) {\n  font-family: 'Coming Soon', cursive !important;\n  font-weight: 700 !important;\n  font-synthesis: weight !important;\n  letter-spacing: 0.2px;\n}\n\n/* Protect Google's icon fonts */\n.google-material-icons,\n.material-icons,\n.material-icons-extended,\n.material-symbols-outlined,\n.DPvwYc {\n  font-family: 'Google Material Icons', 'Material Icons Extended', 'Material Icons', 'Material Symbols Outlined' !important;\n  font-weight: 400 !important;\n}",
+        "domains": [
+          "keep.google.com"
+        ]
+      }
+    ],
+    "_rev": 1795442255675,
+    "updateDate": 1795442255675,
+    "_id": "baafde8d-fd6c-4592-8313-324896ce8cca",
+    "id": 18
+  }
+]
